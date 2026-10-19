@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Highlight privacy policy.">
+		<title>Privacy — Highlight</title>
+		<link rel="icon" href="assets/highlight-128.png">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<a class="brand" href="index.html"><img src="assets/highlight-128.png" alt=""><span>Highlight</span></a>
+			<nav aria-label="Primary navigation"><a href="index.html">Home</a><a aria-current="page" href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+		</header>
+
+		<main class="document-page">
+			<div class="document-heading">
+				<p class="eyebrow">Effective October 19, 2026</p>
+				<h1>Privacy Policy</h1>
+				<p>Highlight is a Chrome extension with one purpose: let users save, organize, and return to selected passages in their ChatGPT conversations.</p>
+			</div>
+
+			<article class="policy">
+				<section>
+					<h2>Data Highlight handles</h2>
+					<p>Highlight processes only the information needed to provide its user-facing features:</p>
+					<ul>
+						<li>text the user explicitly chooses to highlight;</li>
+						<li>nearby message and question context used to restore and explain the highlight;</li>
+						<li>the source conversation URL, identifier, and title;</li>
+						<li>saved timestamps, notes, tags, and starred state; and</li>
+						<li>local interface preferences, such as whether the welcome guide has been seen.</li>
+					</ul>
+					<p>Depending on what a user chooses to save, this information may include website content, user-generated content, or personal communications.</p>
+				</section>
+
+				<section>
+					<h2>How the data is used</h2>
+					<p>The extension uses this information to render highlights, restore them after a page reload, organize them in the Highlight Library, search and export the Library, and reopen the source conversation at the saved passage.</p>
+				</section>
+
+				<section>
+					<h2>Storage and transmission</h2>
+					<p>Highlight stores its data in <code>chrome.storage.local</code> on the user's device. Highlight does not operate a backend service and does not transmit saved highlights, conversation content, browsing activity, or usage analytics to the developer or to third parties.</p>
+					<p>When a user explicitly exports the Library, Chrome downloads a Markdown or JSON file to the location chosen by the user. Exported files are not encrypted by Highlight, so users should protect them like any other personal file.</p>
+				</section>
+
+				<section>
+					<h2>Sharing and advertising</h2>
+					<p>Highlight does not sell, share, or use user data for advertising, credit, insurance, or other unrelated purposes. The developer does not have access to locally stored Highlight data.</p>
+					<p>Highlight's use of information complies with the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+				</section>
+
+				<section>
+					<h2>Permissions</h2>
+					<ul>
+						<li><strong>Context menus</strong> provide the user-invoked Highlight and Remove highlight commands.</li>
+						<li><strong>Side panel</strong> displays the saved Highlight Library.</li>
+						<li><strong>Storage</strong> saves highlights and interface preferences locally.</li>
+						<li><strong>Access to ChatGPT pages</strong> reads only the user-selected text and nearby conversation content needed to create, restore, and revisit highlights. The extension runs only on <code>chatgpt.com</code> and the legacy <code>chat.openai.com</code> host.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>User control and retention</h2>
+					<p>Users can remove individual or selected highlights from the Library, remove a visible highlight from its source page, or uninstall the extension to remove its local Chrome storage. Users can also export and re-import their own backup files.</p>
+					<p>Saved data remains on the device until the user deletes it or removes the extension. Highlight does not retain a separate server copy.</p>
+				</section>
+
+				<section>
+					<h2>Changes and contact</h2>
+					<p>If Highlight's data practices change, this policy and the in-product disclosure will be updated before the new behavior is released. Privacy questions can be submitted through the <a href="support.html">Highlight support page</a>.</p>
+				</section>
+			</article>
+		</main>
+
+		<footer><div class="brand compact"><img src="assets/highlight-128.png" alt=""><span>Highlight</span></div><div><a href="index.html">Home</a><a href="support.html">Support</a><a href="support.html#feedback">Share feedback</a></div><p>© 2026 Highlight</p></footer>
+	</body>
+</html>
